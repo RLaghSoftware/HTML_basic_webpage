@@ -1,0 +1,311 @@
+.header 
+{
+	height: 60 px;
+
+	display: flex;
+	justify-content: space-between;
+
+	position: fixed;
+	top:0;
+	left: 0 ;
+	right: 0 ;	
+	z-index:1000;
+
+	background-color: #33FFFF;
+
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCFFE5;
+}
+
+.topStatement
+{
+	flex:1;
+	padding-left: 10px;
+	padding-top:10px;
+	align-items: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: #3333FF;
+	
+	
+
+}
+
+.rightheader
+{
+      padding-right: 10px;
+      padding-top:10px;
+}
+.name
+{
+	flex:1 ;
+	padding-right: 10px;
+        font-size: 30px;
+
+
+
+}
+
+.answer
+{
+	font-size: 25px;
+        width: 800px;
+}
+.response-row
+{
+    width: 800px;
+    
+}
+.question_row
+{
+	display: grid;
+	grid-template-columns: 400px 400px;
+}
+.riddle-whole
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.riddle-grid
+{
+	display:grid;
+	grid-template-columns: 1fr 1fr ;
+	background-color: lightgreen;
+}
+
+.visual
+{
+ 	height: 400px;
+}
+
+.riddle
+{
+	height: 400px;
+	font-family: Times New Roman;
+	font-size: 30px;
+	color: blue;
+	font-weight: bold;
+}
+
+.images
+{
+	width: 350px;
+}
+
+.solutions-grid
+{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: green;
+}
+
+.button1
+{
+	width:300px;
+	height:150px;
+	font-family: Times New Roman;
+	font-size: 30px;
+	font-weight: bold;
+	color: gold;
+	background-color:black;
+	border-radius: 50px;
+}
+
+.button2
+{
+	width:300px;
+	height:150px;
+	font-family: Times New Roman;
+	font-size: 30px;
+	font-weight: bold;
+	color: gold;
+	background-color:black;
+	border-radius: 50px;
+}
+
+.button3
+{
+	width:300px;
+	height:150px;
+	font-family: Times New Roman;
+	font-size: 30px;
+	font-weight: bold;
+	color: gold;
+	background-color:black;
+	border-radius: 50px;
+}
+
+.button4
+{
+	width:300px;
+	height:150px;
+	font-family: Times New Roman;
+	font-size: 30px;
+	font-weight: bold;
+	color: gold;
+	background-color:black;
+	border-radius: 50px;
+}
+
+.button5
+{
+	width:300px;
+	height:150px;
+	font-family: Times New Roman;
+	font-size: 30px;
+	font-weight: bold;
+	color: gold;
+	background-color:black;
+	border-radius: 50px;
+}
+
+.button6
+{
+	width:300px;
+	height:150px;
+	font-family: Times New Roman;
+	font-size: 30px;
+	font-weight: bold;
+	color: gold;
+	background-color:black;
+	border-radius: 50px;
+}
+
+
+.button1:hover
+{
+	
+	font-size: 0;
+	
+	
+
+}
+
+.button1:hover:after
+{
+	color: gold;
+	content:attr(dh1);
+	font-size:20px;
+	background-color:black;
+}
+
+.button2:hover
+{
+	
+	font-size: 0;
+	
+	
+
+}
+
+.button2:hover:after
+{
+	color: gold;
+	content:attr(dh2);
+	font-size:20px;
+	background-color:black;
+}
+
+.button3:hover
+{
+	
+	font-size: 0;
+	
+	
+
+}
+
+.button3:hover:after
+{
+	color: gold;
+	content:attr(dh3);
+	font-size:20px;
+	background-color:black;
+}
+
+.button4:hover
+{
+	
+	font-size: 0;
+	
+	
+
+}
+
+.button4:hover:after
+{
+	color: gold;
+	content:attr(dh4);
+	font-size:20px;
+	background-color:black;
+}
+
+.button5:hover
+{
+	
+	font-size: 0;
+	
+	
+
+}
+
+.button5:hover:after
+{
+	color: gold;
+	content:attr(dh5);
+	font-size:20px;
+	background-color:black;
+}
+
+.button6:hover
+{
+	
+	font-size: 0;
+	
+	
+
+}
+
+.button6:hover:after
+{
+	color: gold;
+	content:attr(dh6);
+	font-size:20px;
+	background-color:black;
+}
+
+.solutions
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.instructions
+{
+	color:red;
+	background-color:black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font:Times New Roman;
+	font-size: 25px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+

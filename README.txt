@@ -1,0 +1,1 @@
+Download all images, the HTML, and CSS files, and have them saved in the same folder. After that, open the html in a new browser to run the code and view the webpage!
